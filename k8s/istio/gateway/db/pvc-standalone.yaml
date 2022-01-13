@@ -11,8 +11,9 @@ metadata:
     release: go-demo-7
   name: go-demo-7-db
 spec:
+  storageClassName: manual
   accessModes:
     - "ReadWriteOnce"
   resources:
     requests:
-      storage: "8Gi"
+      storage: "4Gi"
